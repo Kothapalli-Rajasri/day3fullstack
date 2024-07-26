@@ -12,7 +12,7 @@ function Card(props){
            
 
      <div className="card" style={{ width: '18rem' }}>
-            <img src="fiui.jpeg" width={250}
+            <img src="fiui.jpeg" alt="" width={250}
             style={{border:'1px solid black',borderRadius:'20px'}}/>
                <div className="card-body">
                         <h3>name: {props.userFromArray}</h3>

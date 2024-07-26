@@ -8,8 +8,8 @@ import  ReactDOM from "react-dom/client";
 // import Datafetching3 from "./api";
 // import Fetchdata from "./fetchdata";
 import App from "./app";
-import Datafetching3 from "./api";
-import Cardlist from "./cardlist";
+//import Datafetching3 from "./api";
+//import Cardlist from "./cardlist";
 // import Home from "./home";
 
 

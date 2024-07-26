@@ -1,12 +1,12 @@
 import { BrowserRouter,  Route, Routes } from "react-router-dom";
 
 import Datafetching3 from "./api";
-import Activatelink from "./activatelink";
+//import Activatelink from "./activatelink";
 import Home from "./home";
 import { createContext, useState } from "react";
 import Profile from "./profile";
 import Cart from "./cart";
-import Cardlist from "./cardlist";
+//import Cardlist from "./cardlist";
 export const globalContext = createContext();
 
 function App(){

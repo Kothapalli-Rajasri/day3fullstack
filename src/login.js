@@ -5,7 +5,7 @@ function Log() {
     const collegRef = useRef(null);
     const passRef = useRef(null);
     const [mess, setMess] = useState("");
-    const { globalisLogin, setglobalisLogin } = useContext(UserContext);
+    const {  setglobalisLogin } = useContext(UserContext);
 
     useEffect(() => {
         collegRef.current.focus();

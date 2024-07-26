@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 import Activatelink from "./activatelink";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import Welcome from "./welcome";
 
 export const UserContext = createContext();  // Create context
