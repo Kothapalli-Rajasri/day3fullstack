@@ -7,7 +7,7 @@ function Cart(){
         <h1>Cart</h1>
         <div>
             <div>
-                <img src=""/>
+                <img src="" alt=""/>
             </div>
         </div>
     </div>

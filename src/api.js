@@ -30,7 +30,7 @@ function Datafetching3(){
      
      <div className="card" key={index}style={{border:'1px solid #ddd',borderRadius:' 10px',
        width: '350px',boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
-  <img src={dataitem.image} style={{width:'100%',height:'250px'}}/>
+  <img src={dataitem.image} alt="" style={{width:'100%',height:'250px'}}/>
   <div className="card-body" >
     <h5 >{dataitem.title}</h5>
     <h6>{dataitem.category}</h6>
