@@ -13,12 +13,17 @@ function Log() {
 
     const formsubmitted = (event) => {
         event.preventDefault();
-        if (collegRef.current.value === passRef.current.value) {
-            setMess("Correct");
+        const storedCollegeID = localStorage.getItem("registeredCollegeID");
+        const storedPassword = localStorage.getItem("registeredPassword");
+
+
+        if (collegRef.current.value === storedCollegeID &&
+            passRef.current.value === storedPassword) {
+            setMess("Login successful!");
             setglobalisLogin(true);
             localStorage.setItem("name","Reactjs")
         } else {
-            setMess("Incorrect");
+            setMess("Incorrect ID or password");
         }
         collegRef.current.value = '';
         passRef.current.value = '';

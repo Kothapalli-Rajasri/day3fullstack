@@ -13,9 +13,10 @@ function App(){
     const [globalCount,setGlobalCount] = useState(0);
     const [globaluserobj, setglobaluserobj] = useState({});
     const [globalisLogin,setglobalisLogin]=useState(false);
+    const [globalcart,setglobalcart]=useState([]);
     
     return(
-        <globalContext.Provider value={{ globalCount, setGlobalCount , globaluserobj, setglobaluserobj,globalisLogin,setglobalisLogin}} >
+        <globalContext.Provider value={{ globalCount, setGlobalCount , globaluserobj, setglobaluserobj,globalisLogin,setglobalisLogin,globalcart,setglobalcart}} >
        
             <BrowserRouter>
                <Routes>

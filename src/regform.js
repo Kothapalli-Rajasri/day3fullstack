@@ -30,6 +30,9 @@ function Reg(){
       }
      setUser(obj);
      setglobaluserobj(obj);
+
+     localStorage.setItem("registeredCollegeID", collegeid);
+     localStorage.setItem("registeredPassword", password);
       console.log(obj);
       console.log(user);
       
